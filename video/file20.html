@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item
+{
+background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.item2 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.item5
+{
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+</style>
+</head> 
+<body> 
+<div class="grid-container">
+  <div class="grid-item item1"><h1>AI Infotech</h1></div>
+  <div class="grid-item item2">menu</div>
+  <div class="grid-item item3">Main</div>  
+  <div class="grid-item item4">right</div>
+  <div class="grid-item item5">footers</div>  
+</div>
+
+<p>You can refer to line numbers when placing grid items.</p>
+
+</body>
+</html>
+
+

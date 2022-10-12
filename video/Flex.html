@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        body{
+            height: 100%;
+        }
+        .header
+        {
+            height: 100px;
+            background-color: gray;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .fcontainer
+        {
+            display: flex;
+            /* flex-direction:row-reverse; */
+            /* flex-direction:row-reverse */
+            background-color: blue;
+            justify-content:right;
+            align-items:center;
+            
+            
+
+       
+        }
+        .fflex
+        {
+        
+            background-color: aquamarine;
+
+            color: white;
+            margin: 0px;
+            padding: 20px;
+            border-style: dashed;
+            margin: 10px;
+            /* margin-right: -4px; */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>AI Infotech</h1>
+    </div>
+    <div class="fcontainer">
+        <div class="fflex">Home</div>
+        <div class="fflex">About</div>
+        <div class="fflex">Gallery</div>
+        <div class="fflex">Contact</div>
+    </div>
+</body>
+</html>
